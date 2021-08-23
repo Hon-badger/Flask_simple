@@ -34,7 +34,7 @@ def upload_file():
             plt.title('Fourier Spectrum')
             plt.xlabel('Frequency Bin')
             plt.ylabel('Amplitude')
-            plt.savefig('static/Fourier.jpg' + filename)
+            plt.savefig('static/Fourier.jpg')
             return redirect(url_for('upload_file', filename=filename))
     return render_template('page.html')
 
