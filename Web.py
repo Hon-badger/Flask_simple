@@ -7,7 +7,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 ALLOWED_EXTENSIONS = set()
-UPLOAD_FOLDER = 'C:/Users/Dmitriy.ASUS/Desktop/Flask_Project/'
+UPLOAD_FOLDER = '' # your folder
 ALLOWED_EXTENSIONS.add('mp3')
 
 app = Flask(__name__)
